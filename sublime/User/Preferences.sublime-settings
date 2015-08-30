@@ -1,0 +1,15 @@
+{
+    "theme": "Soda Dark 3.sublime-theme",
+    "soda_classic_tabs": true,
+    "color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+    "rulers": [80],
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+    "ensure_newline_at_eof_on_save": true,
+    "shift_tab_unindent": true,
+    "copy_with_empty_selection": false,
+    "highlight_modified_tabs": true,
+    "bold_folder_labels": true,
+    "show_encoding": true,
+    "hot_exit": false,
+}

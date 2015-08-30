@@ -5,6 +5,7 @@
 	"installed_packages":
 	[
 		"BracketHighlighter",
+		"Color Highlighter",
 		"Colorsublime",
 		"Emmet",
 		"Git",
@@ -14,6 +15,7 @@
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-flake8",
+		"SublimeLinter-jshint",
 		"SublimeLinter-pep8",
 		"Theme - Soda"
 	]

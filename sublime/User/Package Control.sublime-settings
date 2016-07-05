@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -9,7 +10,9 @@
 		"Colorsublime",
 		"Emmet",
 		"Git",
+		"JSLint",
 		"LESS",
+		"Monokai Extended",
 		"Package Control",
 		"Puppet",
 		"Sass",

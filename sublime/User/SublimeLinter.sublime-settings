@@ -30,7 +30,7 @@
                 "args": [],
                 "excludes": [],
                 "ignore": "",
-                "max-line-length": null,
+                "max-line-length": 119,
                 "select": ""
             }
         },
@@ -43,7 +43,9 @@
             "windows": []
         },
         "python_paths": {
-            "linux": [],
+            "linux": [
+                "/usr/local/bin/pep8"
+            ],
             "osx": [],
             "windows": []
         },

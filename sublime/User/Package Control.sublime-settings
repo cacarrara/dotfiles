@@ -8,9 +8,9 @@
 		"BracketHighlighter",
 		"Color Highlighter",
 		"Colorsublime",
+		"EditorConfig",
 		"Emmet",
 		"Git",
-		"JSLint",
 		"LESS",
 		"Monokai Extended",
 		"Package Control",
@@ -18,8 +18,6 @@
 		"Sass",
 		"Search in Project",
 		"SublimeLinter",
-		"SublimeLinter-flake8",
-		"SublimeLinter-jshint",
 		"SublimeLinter-pep8",
 		"Theme - Soda"
 	]

@@ -1,6 +1,6 @@
 {
-	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/SublimeLinter/Monokai Extended Bright (SL).tmTheme",
+	"bold_folder_labels": false,
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"copy_with_empty_selection": false,
 	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
@@ -12,6 +12,8 @@
 		".cache",
 		"__pycache__"
 	],
+	"font_face": "Inconsolata",
+	"font_size": 12,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":

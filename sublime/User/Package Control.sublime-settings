@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"BracketHighlighter",
+		"CFG Configuration Syntax Highlighting",
 		"Color Highlighter",
 		"Colorsublime",
 		"EditorConfig",

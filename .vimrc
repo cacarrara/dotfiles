@@ -174,13 +174,14 @@ endif
 set mousemodel=popup
 set t_Co=256
 set guioptions=egmrti
-set gfn=Monospace\ 10
+set gfn=Monospace\ 12
 
 if has("gui_running")
   if has("gui_mac") || has("gui_macvim")
     set guifont=Menlo:h12
     set transparency=7
   endif
+  set guifont="Inconsolata for Powerline Medium 12"
 else
   let g:CSApprox_loaded = 1
 

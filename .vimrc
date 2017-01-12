@@ -182,6 +182,7 @@ if has("gui_running")
     set transparency=7
   endif
   set guifont=Inconsolata-dz\ for\ Powerline\ Medium\ 11
+  set guioptions-=m
 else
   let g:CSApprox_loaded = 1
 

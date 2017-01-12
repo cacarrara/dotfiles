@@ -19,6 +19,7 @@
 		"Sass",
 		"Search in Project",
 		"SublimeLinter",
+		"SublimeLinter-flake8",
 		"SublimeLinter-pep8",
 		"Theme - Soda"
 	]

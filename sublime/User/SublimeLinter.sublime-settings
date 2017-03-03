@@ -13,10 +13,10 @@
                 "builtins": "",
                 "excludes": [],
                 "executable": "",
-                "ignore": "",
+                "ignore": "501",
                 "jobs": "1",
                 "max-complexity": -1,
-                "max-line-length": null,
+                "max-line-length": 200,
                 "select": "",
                 "show-code": false
             },
@@ -29,8 +29,8 @@
                 "@disable": false,
                 "args": [],
                 "excludes": [],
-                "ignore": "",
-                "max-line-length": 119,
+                "ignore": "501",
+                "max-line-length": 200,
                 "select": ""
             }
         },

@@ -5,6 +5,7 @@ conky.config = {
 	double_buffer = true,
 	no_buffers = true,
 	imlib_cache_size = 10,
+    xinerama_head = 0,
 
 -- Window specifications #
 	gap_x = 15,
@@ -65,10 +66,10 @@ Uptime ${alignr}$color $uptime
 ${cpugraph 32,220 FFFFFF FFFFFF -l}
 Cpu:${alignr}${cpu}%
 
-0 ${cpubar cpu1 4}
-1 ${cpubar cpu2 4}
-2 ${cpubar cpu3 4}
-3 ${cpubar cpu4 4}
+${cpubar cpu1 4,110} ${alignr }${cpubar cpu2 4,110}
+${cpubar cpu3 4,110} ${alignr }${cpubar cpu4 4,110}
+${cpubar cpu5 4,110} ${alignr }${cpubar cpu6 4,110}
+${cpubar cpu7 4,110} ${alignr }${cpubar cpu8 4,110}
 Procs:$processes Run: $running_processes Temp: ${acpitemp}°C
 
 ${memgraph 32,225 FFFFFF FFFFFF -l}
@@ -78,20 +79,20 @@ ${diskiograph 32,225 FFFFFF FFFFFF -l}
 Disk I/O:${alignr}${diskio}
 
 # Network
-${if_existing /proc/net/route wlp2s0}
+${if_existing /proc/net/route wlp61s0}
 WAN:${alignr}${exec curl ipinfo.io/ip}
-LAN:${alignr}${addrs wlp2s0}
-WiFi ${alignr}${wireless_link_qual_perc wlp2s0}%(${wireless_link_qual wlp2s0}/${wireless_link_qual_max wlp2s0})
-${upspeedgraph wlp2s0 32,100 FFFFFF FFFFFF}${alignr}${downspeedgraph wlp2s0 32,100 FFFFFF FFFFFF}
-Up: ${upspeed wlp2s0}${alignr}Down: ${downspeed wlp2s0}
-Sent: ${totalup wlp2s0}${alignr}Recv: ${totaldown wlp2s0}
+LAN:${alignr}${addrs wlp61s0}
+WiFi ${alignr}${wireless_link_qual_perc wlp61s0}%(${wireless_link_qual wlp61s0}/${wireless_link_qual_max wlp61s0})
+${upspeedgraph wlp61s0 32,100 FFFFFF FFFFFF}${alignr}${downspeedgraph wlp61s0 32,100 FFFFFF FFFFFF}
+Up: ${upspeed wlp61s0}${alignr}Down: ${downspeed wlp61s0}
+Sent: ${totalup wlp61s0}${alignr}Recv: ${totaldown wlp61s0}
 ${endif}
-${if_existing /proc/net/route enp3s0}
+${if_existing /proc/net/route enp0s31f6}
 WAN:${alignr 39}${exec curl ipinfo.io/ip}
-Addr:${alignr 39}${addrs enp3s0}
-${upspeedgraph enp3s0 32,100 FFFFFF FFFFFF}${alignr}${downspeedgraph enp3s0 32,100 FFFFFF FFFFFF}
-Up: ${upspeed enp3s0}${alignr}Down: ${downspeed enp3s0}
-Sent: ${totalup enp3s0}${alignr}Recv: ${totaldown enp3s0}
+Addr:${alignr 39}${addrs enp0s31f6}
+${upspeedgraph enp0s31f6 32,100 FFFFFF FFFFFF}${alignr}${downspeedgraph enp0s31f6 32,100 FFFFFF FFFFFF}
+Up: ${upspeed enp0s31f6}${alignr}Down: ${downspeed enp0s31f6}
+Sent: ${totalup enp0s31f6}${alignr}Recv: ${totaldown enp0s31f6}
 ${endif}
 
 # Proceses

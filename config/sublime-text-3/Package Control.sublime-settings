@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"BracketHighlighter",
+		"Dockerfile Syntax Highlighting",
 		"GitGutter",
 		"GitLink",
 		"gruvbox",
@@ -16,6 +17,7 @@
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-flake8",
-		"SublimeLinter-json"
+		"SublimeLinter-json",
+		"Terraform"
 	]
 }

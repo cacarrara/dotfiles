@@ -7,10 +7,12 @@
 	[
 		"BracketHighlighter",
 		"Dockerfile Syntax Highlighting",
+		"Git blame",
 		"GitGutter",
 		"GitLink",
 		"gruvbox",
 		"JsPrettier",
+		"JSX",
 		"Package Control",
 		"PlainTasks",
 		"Search in Project",

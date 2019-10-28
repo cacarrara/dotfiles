@@ -25,10 +25,7 @@
 	"gruvbox_tabs_xxs": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
+	"ignored_packages": [],
 	"rulers":
 	[
 		90
@@ -37,5 +34,6 @@
 	"show_encoding": true,
 	"theme": "gruvbox.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"vintage_start_in_command_mode": true
 }

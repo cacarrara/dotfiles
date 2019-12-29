@@ -20,6 +20,7 @@
 		"SublimeLinter",
 		"SublimeLinter-flake8",
 		"SublimeLinter-json",
-		"Terraform"
+		"Terraform",
+		"TOML"
 	]
 }

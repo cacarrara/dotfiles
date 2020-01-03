@@ -5,6 +5,8 @@
 	],
 	"installed_packages":
 	[
+		"Babel",
+		"Babel Snippets",
 		"BracketHighlighter",
 		"Dockerfile Syntax Highlighting",
 		"Git blame",
@@ -12,7 +14,6 @@
 		"GitLink",
 		"gruvbox",
 		"JsPrettier",
-		"JSX",
 		"Package Control",
 		"PlainTasks",
 		"Search in Project",

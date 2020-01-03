@@ -25,7 +25,10 @@
 	"gruvbox_tabs_xxs": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
-	"ignored_packages": [],
+	"ignored_packages":
+	[
+		"JavaScript"
+	],
 	"rulers":
 	[
 		90

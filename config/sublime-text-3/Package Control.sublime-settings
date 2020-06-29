@@ -6,7 +6,6 @@
 	"installed_packages":
 	[
 		"Babel",
-		"Babel Snippets",
 		"BracketHighlighter",
 		"Dockerfile Syntax Highlighting",
 		"Emmet",
@@ -17,13 +16,13 @@
 		"INI",
 		"JsPrettier",
 		"Package Control",
-		"PlainTasks",
 		"Search in Project",
 		"SideBarEnhancements",
+		"sublack",
 		"SublimeLinter",
 		"SublimeLinter-flake8",
 		"SublimeLinter-json",
-		"Terraform",
-		"TOML"
-	]
+		"TOML",
+		"Vue Syntax Highlight",
+	],
 }

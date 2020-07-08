@@ -45,3 +45,6 @@ bower_components
 node_modules
 jspm_packages
 .npm
+
+# Sublime
+*sublime*

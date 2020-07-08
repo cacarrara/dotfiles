@@ -5,6 +5,7 @@
 	default = simple
 [core]
 	editor = nvim
+	excludesfile = ~/.ignore
 [alias]
 	co = checkout
 	ci = commit

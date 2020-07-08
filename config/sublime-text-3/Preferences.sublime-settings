@@ -8,11 +8,11 @@
 		".pytest_cache",
 		"__pycache__",
 		"node_modules",
-		".venv"
+		".venv",
+		".mypy_cache"
 	],
 	"font_face": "Hacker",
 	"font_size": 9,
-	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?_",
 	"gruvbox_animate_icons": true,
 	"gruvbox_command_palette_cramped": true,
 	"gruvbox_disable_borders": true,
@@ -25,7 +25,11 @@
 	"gruvbox_tabs_xxs": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
-	"ignored_packages": ["JavaScript",
+	"ignored_packages": [
+		"JavaScript",
+		"Six",
+		"Vintage",
+		"Vintageous",
 	],
 	"remember_full_screen": true,
 	"rulers": [88],
@@ -35,22 +39,20 @@
 	"theme": "gruvbox.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"use_tab_stops": true,
-	"indent_to_bracket": false,
+	"indent_to_bracket": true,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"highlight_line": true,
-
-	"vintage_start_in_command_mode": true,
-
 	"caret_style": "smooth",
 	"caret_extra_top": 1,
 	"caret_extra_bottom": 1,
 	"line_padding_top": 1,
 	"line_padding_bottom": 1,
-
 	"indent_guide_options": ["draw_active"],
-
 	/*"shift_tab_unindent": true,*/
-
 	"ui_scale": 1.0,
+	"neovintageous_build_version": 11100,
+	"vintageous_use_ctrl_keys": true,
+	"vintageous_use_super_keys": false,
+	"vintageous_use_sys_clipboard": true,
 }

@@ -7,7 +7,9 @@
 	[
 		"Babel",
 		"BracketHighlighter",
+		"Django Syntax",
 		"Dockerfile Syntax Highlighting",
+		"Emmet2",
 		"Git blame",
 		"GitGutter",
 		"GitLink",
@@ -15,7 +17,6 @@
 		"INI",
 		"JsPrettier",
 		"LSP",
-		"Mako",
 		"NeoVintageous",
 		"Package Control",
 		"Search in Project",
@@ -26,5 +27,9 @@
 		"SublimeLinter-json",
 		"TOML",
 		"Vue Syntax Highlight",
+	],
+	"repositories":
+	[
+		"https://github.com/emmetio/sublime-text-plugin/releases/latest/download/registry.json"
 	],
 }

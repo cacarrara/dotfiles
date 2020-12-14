@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 .[ve]env
 [ve]ev
+.python-version
 
 
 # Distribution / packaging
